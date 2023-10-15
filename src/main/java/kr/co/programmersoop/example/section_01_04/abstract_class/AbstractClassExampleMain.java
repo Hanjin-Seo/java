@@ -13,6 +13,8 @@ public class AbstractClassExampleMain {
         abstractClass.implementedMethod();
         abstractClass.abstractMethod();
 
+        System.out.println("======================");
+
         AbstractClass extendedClass = new ExtendedClass();
         extendedClass.implementedMethod();
         extendedClass.abstractMethod();
